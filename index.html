@@ -1,13 +1,44 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+</head>
+<body>
+  <div id="app">
+    <div>
+
+      <div class="logos">
+        <a href="https://vitejs.dev" target="_blank">
+          <img src="/vite.svg" class="logo" alt="Vite logo">
+        </a>
+        <a href="https://react.dev/learn" target="_blank">
+          <img src="/src/react.svg" class="logo" alt="React logo">
+        </a>
+        <a href="https://www.typescriptlang.org/" target="_blank">
+          <img src="/src/typescript.svg" class="logo vanilla" alt="TypeScript logo">
+        </a>
+        <a href="https://learn.javascript.ru/">
+          <img class="logo" src="/src/javascript.svg" alt="JS logo">
+        </a>
+      </div>
+
+      <h1 class="title">Vite + TypeScript and JS</h1>
+      <h2 class="subtitle" id="amount">000</h2>
+
+      <div class="card">
+        <button class="btn" id="counterOne" type="button">0</button>
+        <button id="counter" type="button">count is 1240</button>
+        <button class="btn" id="counterTwo" type="button">124</button>
+      </div>
+
+      <p class="read-the-docs">
+        Click on the Vite and TypeScript logos to learn more
+      </p>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
 </html>
