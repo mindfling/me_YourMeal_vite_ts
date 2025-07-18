@@ -17,6 +17,8 @@
   --grey: #f2f2f3;
   --input-white: #fff;
   --button-focus: #f86310;
+
+  scrollbar-gutter: auto;
 }
 
 *,
