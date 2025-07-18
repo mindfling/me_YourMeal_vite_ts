@@ -10,22 +10,29 @@ test layout of YouMeal Maks project
 Макет orig
 <https://www.figma.com/file/zAASWcZBpUyFVnPFAYX8HH/YouMeal-(youtube)>
 
+My YourMeal макет
+<https://www.figma.com/design/k8cMuFUzc6fS16rARJOCy6/YouMeal--youtube---Copy->
+
 Генератор фавиконок
 <https://realfavicongenerator.net>
 
 Download Nunito fonts woff2
 <https://www.onlinewebfonts.com/fonts/Nunito_woff2>
 
-Шрифты
+Шрифты nw
 <https://gwfh.mranftl.com/fonts>
 
 SVG to CSS
 <https://yoksel.github.io/url-encoder>
 
+## Normalize libs
+
 necolas Normalize.css
 <https://necolas.github.io/normalize.css>
 
-`npm install normalize.css`
+```bash
+npm install normalize.css
+```
 
 Ламков css-normalize @a1rth/css-normalize
 <https://github.com/aleksanderlamkov/css-normalize>
