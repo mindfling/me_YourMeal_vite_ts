@@ -1,10 +1,26 @@
 .header {
+  position: relative;
   width: 100%;
   display: flex;
+  z-index: 111;
 }
 
 .header__container {
   width: 100%;
   display: flex;
   flex-direction: column;
+  z-index: 222;
 }
+
+.header__title {
+  display: block;
+  z-index: 999;
+}
+
+.header__elipses {
+  position: absolute;
+  top: -100px;
+  z-index: 1;
+}
+
+

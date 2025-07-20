@@ -1,13 +1,15 @@
-@import 'src/style/css-normalize';
-/* @import 'src/style/normalize.css/normalize.css'; */
+/* @import 'src/style/css-normalize'; */
+@import 'src/style/normalize.css/normalize.css';
 /* @import 'fonts.css'; */
 @import 'src/style/default.css';
 @import 'src/style/header.css';
 /* @import 'main.css'; */
-/* @import 'footer.css'; */
+@import 'src/style/footer.css';
 
 
 ::selection {
   background-color: orange;
   color: #f0f0f0;
 }
+
+
