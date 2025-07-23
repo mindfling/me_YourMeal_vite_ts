@@ -19,6 +19,9 @@ My YourMeal макет
 Download Nunito fonts woff2
 <https://www.onlinewebfonts.com/fonts/Nunito_woff2>
 
+Download Nunito fonts woff2 git
+<https://github.com/Konstantin35/nunito-cyrillic>
+
 Шрифты nw
 <https://gwfh.mranftl.com/fonts>
 

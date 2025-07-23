@@ -89,26 +89,26 @@ iframe {
   min-width: 300px;
   padding-left: 10px;
   padding-right: 10px;
-  border: 1px solid lawngreen;
+  /* border: 1px solid lawngreen; */
   
   @media (min-width: 1024px) {
     min-width: 960px;
     padding-left: 32px;
     padding-right: 32px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
 
   @media (min-width: 768px) {
     min-width: 640px;
     padding-left: 64px;
     padding-right: 64px;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
   }
   
   @media (min-width: 1440px) {
     min-width: 1290px;
     padding-left: 75px;
     padding-right: 75px;
-    border: 1px solid orangered;
+    /* border: 1px solid orangered; */
   }
 }
