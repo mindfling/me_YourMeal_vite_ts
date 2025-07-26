@@ -28,6 +28,18 @@ Download Nunito fonts woff2 git
 SVG to CSS
 <https://yoksel.github.io/url-encoder>
 
+## create our project
+
+```bash
+npm create vite@4 meyourmeal
+cd meyourmeal
+npm i
+```
+
+```bash
+npm i -D sass
+```
+
 ## Normalize libs
 
 necolas Normalize.css
@@ -42,4 +54,11 @@ npm install normalize.css
 
 ```bash
 npm install @a1rth/css-normalize
+```
+
+install swiper slider
+<https://www.npmjs.com/package/swiper>
+
+```bash
+npm i swiper
 ```
