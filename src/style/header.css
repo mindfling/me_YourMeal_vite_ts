@@ -7,9 +7,14 @@
   color: white;
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3Csvg width='200' height='200' viewBox='0 0 200 200' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='100' cy='100' r='100' fill='%23FFAB08'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: center 120%;
-    background-size: 140%;
+  background-repeat: no-repeat;
+  background-position: center 100%;
+  background-size: 185%;
+
+  @media (min-width: 768px) {
+    outline: 1px solid lawngreen;
+    outline-offset: -1px;
+  }
 }
 
 .header__container {
@@ -28,6 +33,7 @@
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .header__title-white {
@@ -44,7 +50,7 @@
   font-size: 12px;
   text-align: center;
   color: white;
-  margin-bottom: 30px;
+  margin-bottom: 19px;
 }
 
 .header__price {
@@ -54,5 +60,6 @@
 
 
 .header__logo {
+  margin-bottom: 24px;
   color: #fff;
 }
