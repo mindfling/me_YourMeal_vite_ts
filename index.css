@@ -3,13 +3,10 @@
 /* @import 'fonts.css'; */
 @import 'src/style/default.css';
 @import 'src/style/header.css';
+@import 'src/categories.css';
 /* @import 'main.css'; */
 @import 'src/style/footer.css';
 
 
-::selection {
-  background-color: orange;
-  color: #f0f0f0;
-}
 
 
