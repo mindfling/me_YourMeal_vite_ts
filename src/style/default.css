@@ -18,7 +18,7 @@
   font-weight: 400;
   font-size: 12px;
   /* зазор при исчезновении скролла */
-  scrollbar-gutter: auto;
+  /* scrollbar-gutter: auto; */
 }
 
 *, *::before, *::after {
@@ -95,7 +95,7 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   /** 320px */
   width: 100%;
   min-width: 300px;
@@ -113,7 +113,7 @@ iframe {
   }
   
   @media (min-width: 1024px) {
-     min-width: 960px;
+    min-width: 960px;
     padding-left: 32px;
     padding-right: 32px;
     /* outline: 1px solid green; */
@@ -132,5 +132,6 @@ iframe {
 /* цвет выделения курсором */
 ::selection {
   background-color: orange;
+  background-color: gray;
   color: #f0f0f0;
 }
