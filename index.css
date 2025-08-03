@@ -3,7 +3,8 @@
 /* @import 'fonts.css'; */
 @import 'src/style/default.css';
 @import 'src/style/header.css';
-@import 'src/categories.css';
+/* @import 'src/categories.css'; */
+@import 'src/style/navigaiton.css';
 /* @import 'main.css'; */
 @import 'src/style/footer.css';
 
