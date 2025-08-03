@@ -58,7 +58,6 @@
 }
 
 
-.header__description,
 .header__appeal {
   line-height: 1.4;
   display: flex;
@@ -67,8 +66,6 @@
   font-weight: 400;
   font-size: 12px;
   color: #ffffff;
-  color: #FFAB08;
-  color: rgb(255, 171, 8);
   margin-bottom: 19px;
 }
 
