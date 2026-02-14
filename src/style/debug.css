@@ -1,0 +1,159 @@
+ /* * my debug colors */
+
+:root {
+  --orange: #FF8700;
+  --yellow: #FFD300;
+  --lime:    #DEFF0A;
+  --lawngreen: #A1FF0A;
+  --skyblue: #007FFF;
+  --violet: #580AFF;
+  --magenta: #BE0AFF;
+  --brightcrimson: rgb(255, 0, 98);
+  --darkdarkgrey: #040404;
+  --whitegrey: #dfdfdf;
+}
+
+/* * debug blocks */
+.debug {
+   /* background-color: purple */
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  z-index: 900;
+}
+
+.debug__block {
+  position: absolute;
+  top: 0;
+  left: 0;
+   /* display: flex; */
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  opacity: 1 ;
+}
+
+.debug__text {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+}
+.debug__size {
+  display: block;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+
+.debug__block_mobile {
+  @media (min-width: 320px) {
+    display: flex;
+     /* background-color: #FF8700; */
+    background-color: var(--orange);
+  }
+}
+.debug__block_sm {
+  @media(width > 576px) {
+    display: flex;
+    /* // background-color: #FFD300; */
+    background-color: var(--yellow);
+  }
+}
+.debug__block_md {
+  @media(width > 768px ) {
+    display: flex;
+    /* background-color: #DEFF0A; */
+    background-color: var(--lime);
+  }
+}
+.debug__block_lg {
+  @media(width > 1024px) {
+    display: flex;
+    /* background-color: #A1FF0A; */
+    background-color: var(--lawngreen);
+  }
+}
+.debug__block_xl {
+  @media(width > 1240px) {
+    display: flex;
+    /* // background-color: #007FFF; */
+    background-color: var(--skyblue);
+    color: var(--darkdarkgrey);
+  }
+}
+.debug__block_desk {
+  @media (min-width: 1440px) {
+    display: flex;
+    /* // background-color: #580AFF; */
+    background-color: var(--violet);
+    color: var(--whitegrey);
+  }
+}
+.debug__block_xxl {
+  @media(width > 1600px) {
+    display: flex;
+    /* // background-color: #BE0AFF; */
+    background-color: var(--magenta);
+    color: var(--whitegrey);
+  }
+}
+.debug__block_hd {
+  @media (min-width: 2560px) {
+    display: flex;
+    background-color: var(--brightcrimson);
+    color: var(--whitegrey);
+  }
+}
+  
+
+/* до 320px скрываем дебаги*/
+@media (max-width: 319px) {
+  .debug,
+  .debug__block {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .debug__block_mobile {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .debug__block_sm {
+    display: none;
+  }
+}
+@media(width > 1024px) {
+  .debug__block_md {
+    display: none;
+  }
+}
+@media(width > 1240px) {
+  .debug__block_lg {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .debug__block_xl {
+    display: none;
+  }
+  
+}
+@media(width > 1600px) {
+  .debug__block_xl,
+  .debug__block_desk {
+    display: none;
+  }
+}
+  
+.nodebug {
+  display: none;
+}
